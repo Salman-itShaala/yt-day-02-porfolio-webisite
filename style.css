@@ -50,7 +50,7 @@ main {
 main .img-wrapper {
   width: 320px;
   height: 320px;
-  border: 6px solid red;
+  border: 6px solid var(--primary-active-btn-bg);
   border-radius: 50%;
   padding: 8px;
 }
@@ -93,4 +93,33 @@ main .img-wrapper img {
   padding: 2rem 0;
   gap: 4vw;
   text-align: center;
+}
+
+/* cv and contact section */
+
+.cv-contact-section {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  align-items: center;
+}
+
+.cv-contact-section button {
+  border: none;
+  height: 4rem;
+  width: 16rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.dowload-cv-btn {
+  background-color: var(--primary-active-btn-bg);
+}
+
+.contact-me-btn {
+  background-color: var(--theme-btn-bg);
 }
