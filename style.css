@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* reseting the css */
+
 * {
   padding: 0;
   margin: 0;
@@ -31,7 +33,7 @@ header {
 
 header svg {
   padding: 10px;
-  background-color: #fff;
+  background-color: var(--theme-btn-bg);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -48,7 +50,7 @@ main {
 main .img-wrapper {
   width: 320px;
   height: 320px;
-  border: 6px solid var(--primary-active-btn-bg);
+  border: 6px solid red;
   border-radius: 50%;
   padding: 8px;
 }
@@ -80,4 +82,15 @@ main .img-wrapper img {
   list-style: none;
   gap: 1.5rem;
   align-items: center;
+}
+
+/* about section */
+
+.about-info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 4vw;
+  text-align: center;
 }
