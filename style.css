@@ -123,3 +123,36 @@ main .img-wrapper img {
 .contact-me-btn {
   background-color: var(--theme-btn-bg);
 }
+
+/* portfolio and skills buttons */
+
+.portfolio-toggle-btns {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.btns-wrapper {
+  padding: 0.6rem;
+  background-color: var(--theme-btn-bg);
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btns-wrapper button {
+  height: 4rem;
+  width: 16rem;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.portfolio-btn {
+  background-color: #d7d7d7;
+}
+
+.skills-btn {
+  background-color: var(--theme-btn-bg);
+}
