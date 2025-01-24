@@ -12,7 +12,7 @@
   --primary-bg-color: #e9ebec;
   --primary-active-btn-bg: #fbd144;
   --primary-inactive-btn-bg: #ffffff;
-  --primary-text-color: #3d3d3d;
+  --primary-text-color: #ffffff;
   --theme-btn-bg: #fff;
   font-size: 16px;
 }
@@ -181,4 +181,15 @@ main .img-wrapper img {
 footer {
   text-align: center;
   padding: 2.8rem 0;
+}
+
+/* spline  */
+
+.spline-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+  height: 100vh;
+  width: 100%;
 }
