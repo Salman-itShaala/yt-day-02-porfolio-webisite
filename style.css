@@ -156,3 +156,29 @@ main .img-wrapper img {
 .skills-btn {
   background-color: var(--theme-btn-bg);
 }
+
+/* project section */
+
+.projects-skills-section {
+  display: grid;
+  grid-template-columns: 18rem 18rem;
+  grid-auto-rows: 12rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-card {
+  height: 12rem;
+  width: 18rem;
+}
+
+.projects-skills-section img {
+  height: 100%;
+  width: 100%;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 2.8rem 0;
+}
