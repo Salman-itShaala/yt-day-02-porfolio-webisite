@@ -171,8 +171,8 @@ main .img-wrapper img {
 }
 
 .project-card {
-  height: 12rem;
-  width: 18rem;
+  /* height: 12rem; */
+  /* width: 18rem; */
 }
 
 .projects-skills-section img {
@@ -206,4 +206,26 @@ footer {
 
 .inactive {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    gap: 4vw;
+  }
+  .info-wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  .active {
+    grid-template-columns: 420px;
+    gap: 4vh;
+    grid-auto-rows: 18rem;
+    padding: 0 1rem;
+    justify-content: center;
+  }
+  .btns-wrapper button,
+  .cv-contact-section a {
+    width: 10rem;
+  }
 }
