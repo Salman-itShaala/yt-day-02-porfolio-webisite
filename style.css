@@ -104,7 +104,7 @@ main .img-wrapper img {
   align-items: center;
 }
 
-.cv-contact-section button {
+.cv-contact-section a {
   border: none;
   height: 4rem;
   width: 16rem;
@@ -114,6 +114,9 @@ main .img-wrapper img {
   justify-content: center;
   gap: 1rem;
   cursor: pointer;
+
+  color: #000;
+  text-decoration: none;
 }
 
 .dowload-cv-btn {
