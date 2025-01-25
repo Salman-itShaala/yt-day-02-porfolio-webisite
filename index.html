@@ -154,12 +154,22 @@
 
     <div class="portfolio-toggle-btns">
       <div class="btns-wrapper">
-        <button class="portfolio-btn">Portfolio</button>
-        <button class="skills-btn">Skills</button>
+        <button class="portfolio-btn" onclick="showProjects()">
+          Portfolio
+        </button>
+        <button class="skills-btn" onclick="showSkills()">Skills</button>
       </div>
     </div>
 
-    <div class="projects-skills-section">
+    <div class="skills-section inactive" id="skills-section">
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ul>
+    </div>
+
+    <div class="projects-skills-section active" id="projects-section">
       <div class="project-card">
         <a href="/">
           <img src="images/image.png" alt="Project 1" />

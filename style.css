@@ -163,7 +163,7 @@ main .img-wrapper img {
 /* project section */
 
 .projects-skills-section {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 18rem 18rem;
   grid-auto-rows: 12rem;
   justify-content: center;
@@ -195,4 +195,15 @@ footer {
   z-index: -9999;
   height: 100vh;
   width: 100%;
+}
+
+/* hide and show code */
+
+.active {
+  display: grid;
+  justify-content: center;
+}
+
+.inactive {
+  display: none;
 }
